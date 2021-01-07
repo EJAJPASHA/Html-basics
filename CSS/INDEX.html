@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500;600;700;800;900&family=Texturina:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+        
+       <link rel="stylesheet" type="text/css" href="style.css"><!--this is External css where the css file is outside and paragraph tag is styled in style.css-->
+       <!--<style>
+           h1{
+               color: blueviolet;
+               font: caption;
+           }
+       </style> --><!--this is Internal css we can style the html element in the html file using style tag. we can keep this style tag anywhere between html tag but mostly the basic rule is keep the style tag in head tag.-->
+       
+
+   </head>
+    <body>
+        <!--
+        <p>ARE YOU READY</p><hr>
+        <p>I WAS BORN READY</p>
+        <hr>
+        <p>OK LETS START THE GAME</p>
+        <h1>Hellow ezaz pasha after a long gap Welcome to the game</h1>
+        <h2 style="color: aqua; font-size: medium;">this is inline css</h2> --><!--we cannot use two style tags in same element.if we write two style tags browser will consider the second style tag and ignore the first style tag.-->
+        <!--
+        <hr>
+        <h1>Selectors</h1>-->
+        <!--selectors are many types but we use mostly 3types of selectors 1.Element selector 2.id selector 3.class selector-->
+        <!--
+        <p id="ez">hello msi</p>
+        <p class="yellow-text">hello msi</p>
+        <p>hello msi</p>
+        <p id="pi" class="bluetext greentext">hello msi</p>--> <!--if two class are align for single element then server takes 2nd class.
+            if id and class are assign to single element then server takes id request first and class request second-->
+            <!--
+        <p class="yellow-text">hello msi</p>-->
+        <!--the order of selectors is
+        1st id selector
+        2nd class selector
+        3rd element selector-->
+        <!--<hr>-->
+       <!-- Colour-->
+       <!--colours play a crucial role in css 
+           we can mention colour in 6 types
+           1.color names
+           2.RGB(red,green,blue)
+           3.RGBA(red,green,blue,alpha)
+           4.HEX(#ffffff)
+           5.HSL
+           6.HSLA -->
+    <!--1.Predefine color names
+      The browser supports 140 color names like red,blue,green,orange,vilote,white,https://htmlcolorcodes.com/color-names/-->
+   <!--2.RGB
+    Color value between 0 and 255
+    rgb(0,0,0) is black
+    rgb(255,255,255) is white
+    rgb(255,0,0) is red
+    rgb(0,255,0) is green
+    rgb(0,0,255) is blue--> 
+ <!--3.RGBA
+    A is alpha it means transparent it is number between 0.0(fully transparent) and 1.0(not transparent)
+    rgba(255,99,71,0.5)-->
+<!--4.HEX
+    hexadecimal values between 00 and ff(same as decimal 0-255)
+    #rrggbb (rr-red,gg-green,bb-blue)
+    #ff0000 is red
+    #00ff00 is green
+    #0000ff is blue-->
+<!--5.HSL
+    hsl(hue,saturation,lightness)
+    Hue is a degree onthe color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue,360 is black.
+    Saturation is a percentage value 0% means shade of gray, 100% means full color.
+    Lightness is a percentage 0% is black, 50% is neither light or dark, 100% is white
+    hsl(0,100%,50%) is red-->   
+<!--6.HSLA
+    hsla(hue,saturation,lightness,alpha)
+    alpha is a transparent 0.0(full) and 1.0(not)hsla(0,100%,50%,0.5)-->
+    <!--  
+     <h3 style="color: rgb(235, 132,65);font-style: oblique;"> the brand new one plus</h3> 
+     <h3 style="color: RGBA(2, 132,65,0.5);font-style:inherit;"> the brand new one plus</h3>
+     <h3 style="color: #ff00dd;font-style:italic;"> the brand new one plus</h3>
+     <h3 style="color:hsl(23, 33%, 50%);font-style: initial;"> the brand new one plus</h3>
+     <h3 style="color:hsla(221, 90%, 75%, 0.5);font-style: oblique;"> the brand new one plus</h3>-->
+     <!--<hr>-->
+     <!--
+     BACKGROUNDS
+     <div id="bg">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatum unde possimus beatae quia corrupti, sapiente saepe accusantium! Quasi ut reiciendis sint assumenda minus necessitatibus quis expedita, id soluta deleniti quo unde? Eaque, eveniet iusto eos assumenda deleniti explicabo quasi dolore minus quae numquam accusamus quos nam, consectetur necessitatibus repudiandae dolorem. Ipsum optio error, incidunt itaque laboriosam quia nisi, placeat beatae delectus, amet harum a reprehenderit quam. Autem tempora ex architecto cumque molestias aspernatur porro eum aperiam. Dignissimos, laboriosam! Ad iste provident nobis quam quasi, impedit adipisci fugit laborum aperiam, officia alias natus inventore tempore ipsa ut est illum harum, sint mollitia sapiente repellendus! Cum rem repellat quo nostrum perspiciatis vero voluptatem et enim ducimus minus ratione blanditiis iure id aut sint saepe rerum totam, sed architecto facilis. Illum, et necessitatibus! Reprehenderit officiis quisquam modi delectus ipsam, sed eveniet voluptas nam, veritatis molestiae error, numquam dolorem id consequuntur quos omnis cumque. Delectus accusamus culpa ut animi enim perferendis architecto cupiditate voluptates impedit ullam ab nam, eaque maxime debitis perspiciatis deleniti et. In culpa quibusdam soluta recusandae quia eius architecto dolores corrupti, consequatur ab accusantium magnam beatae quos quo a nam, asperiores amet. Iste hic quia provident nesciunt laboriosam. Qui dolore, tempore, impedit doloribus fuga illum, suscipit amet temporibus exercitationem necessitatibus maiores quae neque quis in ipsum distinctio aperiam ipsa itaque expedita! Minima delectus repellat aperiam architecto ipsa tempore qui quaerat perspiciatis hic sed, modi fugit nam maxime libero et nulla id itaque ducimus sapiente. Asperiores, sed vitae. Quos obcaecati sint, omnis nostrum praesentium corporis commodi deserunt aperiam corrupti amet. Consectetur odio minima consequatur perferendis mollitia commodi fuga soluta saepe rerum at rem qui earum, ad natus cum, corporis velit possimus! Aliquam sint tenetur qui quo in vitae officiis voluptatem adipisci veniam ab quidem dolorem corrupti consequuntur maiores delectus, deserunt ratione, aliquid itaque eos commodi ipsum assumenda! Aut dolor ipsa quam, laudantium itaque eligendi animi voluptas explicabo, natus nemo culpa quo tempore nam incidunt quae magnam libero veritatis nihil ducimus aliquam sit odit, modi fugiat minima! Commodi sit voluptatem tempore? Veritatis dignissimos iusto quasi id deleniti quas adipisci minus perferendis. Doloremque sequi earum est fuga quasi reprehenderit aut quas voluptatum molestias provident exercitationem, harum quae consequatur doloribus architecto minima eaque facere. Beatae voluptas repellendus perferendis ipsam error libero fugit officiis dignissimos, alias voluptatem! Nam consequatur excepturi quaerat alias asperiores laborum pariatur consequuntur aut est temporibus voluptates quam nisi deserunt at nostrum animi ut veritatis, sit aperiam sunt obcaecati, officiis tempora exercitationem impedit? Maiores corporis hic officia, vero repellendus rerum corrupti eius aspernatur culpa nemo, asperiores unde reprehenderit mollitia? Eaque corporis, aliquam error illum reiciendis eveniet similique. Repellat quasi perferendis eum fuga error natus pariatur esse rerum cumque tempora ut, officiis dolores vel quisquam voluptatem. Tempora officiis placeat atque quia, exercitationem quisquam ea ratione autem et id soluta? Maiores labore repudiandae sequi molestiae dolorum? Earum nisi quae non eligendi! Debitis error blanditiis similique sapiente dolores unde, temporibus voluptatibus labore suscipit officiis odit reprehenderit soluta numquam. Fugit provident consectetur hic at voluptatibus earum, non ad iusto perspiciatis autem! Rem, eius adipisci praesentium iste ratione maxime libero eum consequuntur alias nemo, officia illo ipsum deleniti explicabo repellendus. Delectus recusandae vitae fuga perferendis! Velit aperiam veniam ipsam rem ab dolorum iure, impedit blanditiis pariatur adipisci porro id maiores aliquam nulla consequatur numquam, iusto explicabo! Animi praesentium error enim optio ipsa, mollitia deleniti quis ipsum? Error qui fuga sit omnis consequuntur nemo autem quasi minus officia, officiis magnam unde harum neque voluptatibus consequatur eius dolor possimus nam! Ullam sint aliquam dolorem quae quasi nobis voluptate, voluptatem unde consectetur, iste fugiat corporis nam dicta obcaecati accusantium doloribus repellat, laboriosam quod iure dolorum recusandae aperiam praesentium id. Omnis officiis assumenda suscipit labore, iure, minus molestias facere harum vitae magnam laborum iusto enim error ea molestiae eveniet repellat, nulla corrupti numquam. Consectetur fugiat facere dignissimos nesciunt dicta. Dolore iure tempore quasi autem ipsum aperiam sit quo officiis corrupti, repellat ea, inventore sunt quidem rerum adipisci commodi veniam quae cupiditate aliquam cumque! Iure inventore qui incidunt dolorem porro necessitatibus laborum fugiat quos eligendi neque officiis magnam aliquid nemo eos alias rerum, veritatis, animi iusto ipsam facilis, quis ab velit eius est? Perspiciatis alias libero molestiae voluptatibus soluta at non distinctio nisi rerum consequuntur, sint odit laboriosam illo blanditiis nam facilis dicta? Suscipit non expedita repellat, beatae voluptate in, consequatur modi maxime quidem, inventore rerum. Minima odio eius tempore quia rem, eum quo blanditiis porro explicabo. Ab, numquam adipisci consequatur unde porro consequuntur maxime deserunt. Odit cumque enim ratione optio molestias non et, voluptates deleniti, dolore quod molestiae quis temporibus laudantium provident atque nostrum suscipit doloribus vitae aliquid in sint totam? Esse culpa quasi inventore architecto, et voluptatem qui eum ut id, totam nemo? Omnis ipsa, aut debitis, assumenda provident earum laudantium exercitationem sunt numquam dignissimos eos quisquam nulla ex maiores, fuga optio aspernatur. Libero error impedit laudantium tenetur earum unde vel maxime. Omnis inventore explicabo dolorum atque eligendi id deleniti quod aut eaque laborum optio nulla dolorem facere a blanditiis iure, iste veniam vero perferendis, tempore facilis! Architecto officia nulla nobis eos, a animi magnam aperiam. Illum adipisci eaque voluptatem enim reiciendis consectetur et eligendi, nostrum doloribus vel rem consequatur reprehenderit ut? Est rem dignissimos repudiandae modi animi provident laborum tempore voluptates laudantium consequatur, nulla ducimus excepturi nam, debitis magnam ipsam. Provident expedita laboriosam earum id, officia ut enim facere molestiae tempora architecto nostrum iusto adipisci totam explicabo possimus ipsam molestias quasi cumque voluptatum! Ab quidem itaque nisi impedit placeat, debitis doloribus veritatis magni, dignissimos distinctio quos pariatur quis odit iste, minima incidunt? Vitae soluta cum, fuga aspernatur delectus et maiores quasi, laudantium neque temporibus excepturi minus quia odio ab consequuntur explicabo saepe eaque similique quisquam exercitationem dolor facilis quos sed rem. Id quo, odio quibusdam velit ipsum vero repudiandae possimus, nihil neque ex modi laboriosam non recusandae magni, cum odit repellat sapiente! Temporibus ipsa voluptas veniam ex quae blanditiis nisi at. Reiciendis architecto praesentium veritatis sit iste fugit voluptatem repudiandae ratione, culpa nulla tempora asperiores possimus nihil eveniet. Voluptas?</p></div>
+    <div id="gb">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veniam aut reprehenderit nulla dolorum perferendis cumque illo harum numquam, incidunt eius tempora debitis excepturi iste delectus aliquam ex placeat dolor culpa qui. Quo perferendis dignissimos est modi delectus. Dignissimos mollitia nam recusandae accusantium nisi. Omnis tempore, totam voluptas dolor similique nulla sapiente. Cum illo veritatis blanditiis natus neque? Cum nostrum pariatur provident aliquam a modi dolor, numquam tempora voluptates excepturi quam consectetur, quae expedita recusandae facere eos explicabo, repellendus placeat. Quia delectus illo explicabo, natus dicta recusandae expedita quas ipsam pariatur vero assumenda fuga rem numquam? Quisquam, vero illo hic, adipisci esse dicta nemo quis temporibus nesciunt delectus nam, ex eveniet quia mollitia eligendi tempora debitis! Cum illum quos debitis non eaque, corrupti itaque optio. Repellat, eaque corrupti fuga modi unde nulla ipsa similique saepe incidunt minus debitis in quidem vitae exercitationem reiciendis velit necessitatibus architecto. Dolorum qui animi itaque modi enim minima unde tempora aut architecto voluptatum id repellendus quia, nam voluptates mollitia, praesentium voluptas quidem saepe ratione autem assumenda asperiores ex. Deserunt, atque. Quasi nulla a fugiat, consequuntur libero facere quia impedit dolore voluptatem adipisci aliquam minima blanditiis autem magni quos doloremque quae excepturi quis voluptatibus! Voluptatum sequi sint ea delectus eveniet natus repudiandae quos a accusamus molestias consequatur tempore ullam blanditiis, et eaque quas quisquam, beatae voluptas quibusdam id iste! Labore cumque fugiat incidunt reiciendis eaque. Sint perspiciatis labore corrupti, iusto nobis cumque explicabo tenetur dolor fuga in natus eum accusantium expedita eligendi rem necessitatibus quidem assumenda, voluptatem eaque doloremque aut dicta, amet nihil unde? Qui similique facilis illo autem rem veniam delectus assumenda quibusdam incidunt, vel ratione aut expedita voluptates minima dolorem mollitia accusantium error harum laboriosam tempore quaerat laborum natus eum tenetur. Quaerat maxime nesciunt repudiandae tempore alias, quisquam hic iure rerum pariatur beatae quam sed atque ratione sunt laboriosam dicta perspiciatis in repellat numquam placeat mollitia! Porro molestiae dolores, tempore quia optio id temporibus consequatur, nulla animi minus, accusamus inventore fugit mollitia corporis explicabo quisquam? Reprehenderit minima facere dolor, architecto ipsa dicta eligendi nulla perspiciatis magnam temporibus. Dolore quidem animi mollitia laudantium quibusdam tempore! Nihil ea rem dolorum, eos obcaecati mollitia, vitae adipisci repellat possimus perferendis, fugit amet non eum incidunt impedit sit cupiditate ipsam aliquid. Ratione, minus? Unde mollitia eveniet deleniti impedit corporis! Illo neque porro quam corrupti quas facere consectetur voluptatum, magnam inventore non accusantium maxime? Quasi velit amet corrupti, tempora et eius quo at sit minus rem! Ut culpa dolorum repellat, sit beatae maxime reprehenderit, ratione nihil suscipit fugiat minus eum quod necessitatibus tenetur perspiciatis explicabo. Veritatis nostrum ea deleniti expedita recusandae maxime quisquam dolore molestias natus asperiores, ad perferendis facere odit labore, in sunt accusamus deserunt. Asperiores commodi voluptates aperiam, mollitia aliquid sit eveniet repellat animi soluta quisquam placeat reiciendis. Quod officiis ab neque saepe ut enim fuga tempore iure ipsum cupiditate, praesentium fugiat eveniet dolore. Autem accusamus itaque alias reiciendis porro. Voluptatem corporis ipsa aspernatur iure mollitia quisquam, hic itaque quaerat dolorem ab velit fugiat tenetur labore adipisci eligendi autem delectus modi, unde eveniet. Ratione nesciunt tenetur aperiam iure facere rerum expedita aut rem officiis laborum! Quibusdam nihil enim quam similique deserunt vel doloribus voluptatibus maiores, alias ducimus expedita eaque mollitia facilis animi neque suscipit, voluptas necessitatibus, sunt harum! Quae ratione in dolore labore delectus ex? Quaerat animi numquam sapiente omnis tempora vitae exercitationem reiciendis saepe quia expedita nesciunt reprehenderit modi aut unde consectetur, non dolore impedit minima voluptatibus inventore itaque. Consectetur quibusdam eligendi qui dignissimos in, dolores laudantium quasi ex hic alias dolorem, repudiandae inventore mollitia maiores quia culpa veniam dolore beatae? Culpa facilis deserunt consequuntur accusantium cum voluptatum, reiciendis veniam iusto voluptatibus nam pariatur laboriosam veritatis ea, repudiandae architecto laborum possimus totam molestias maiores, provident minus delectus labore voluptate magnam. Cum dolores laboriosam praesentium voluptates mollitia placeat delectus non harum exercitationem necessitatibus tempore qui repudiandae molestiae voluptate quis natus error, numquam quas, repellendus optio ipsum ab, totam minus enim! Fugit repellat eos similique, non recusandae quas consequuntur nesciunt hic quibusdam consequatur praesentium, explicabo vero optio assumenda minus autem possimus quam omnis nihil accusantium numquam delectus? Placeat fugit quae quod nemo ut recusandae porro dolor odit tempora vitae quam natus, omnis expedita sint incidunt rem optio itaque. Ad fuga incidunt tenetur facilis sint consectetur voluptate perferendis assumenda. Animi fugiat neque alias similique porro nesciunt! Voluptates corporis et laudantium quos libero fugit unde consequuntur obcaecati dignissimos adipisci non, ad maiores, cupiditate a! Et magni illum officia dolorem praesentium ab odit laboriosam quaerat modi sint, qui consequuntur voluptatum quam maxime obcaecati at, eos architecto, veritatis omnis. Optio nihil accusamus magni pariatur fugit eum, accusantium ullam sequi ducimus id modi, eligendi consectetur expedita ut officiis exercitationem repellat earum at commodi quo, tempore veniam molestiae quae! Accusamus alias expedita consequuntur reiciendis nesciunt earum numquam delectus commodi vitae sequi dolore aliquid doloribus quidem quas laborum, reprehenderit ut fugit. Illum, rem. Suscipit quo repellendus sunt minima commodi voluptatem temporibus sint, amet consectetur optio atque necessitatibus doloremque praesentium doloribus maxime, ea quos sit magnam! Tempore fuga expedita voluptates quaerat iure adipisci suscipit doloribus nam tempora! Pariatur repudiandae veniam excepturi, impedit sit cupiditate et at quisquam maxime hic magnam. Numquam accusantium eveniet cum, delectus velit molestias excepturi minima at nostrum quae iste aut iure sequi alias ipsa est omnis dolorem ullam exercitationem quia, veritatis ducimus beatae, quo nihil? Perspiciatis quaerat illo quas tenetur, ab animi ipsum corporis voluptate voluptatem, cum magni vero quod perferendis earum sapiente repudiandae inventore nesciunt consectetur facere obcaecati in similique voluptas. Itaque ea eaque veniam molestiae facere! Illum laborum laudantium ex consequatur deserunt numquam quas est molestiae earum nulla nemo perferendis debitis delectus, voluptatum fugit eveniet, tenetur quos illo explicabo, voluptate ab ipsum sint optio. Distinctio accusantium facilis, sapiente magni harum nam adipisci esse sequi aperiam voluptate debitis aut, cum tempora fugit aliquid aliquam tempore ut explicabo dolorum, itaque pariatur ab perferendis! Vitae dignissimos necessitatibus sapiente, at sit assumenda numquam exercitationem ducimus cum et veritatis est provident quos harum quisquam aperiam recusandae officiis sint soluta. Quis atque vitae laboriosam aliquam, accusamus doloremque.</p>
+    </div>-->
+    <!--<hr>-->
+    <!--
+    <div class="border" id="mag1">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, expedita sit? Eum alias accusamus beatae libero iste, quaerat numquam ad.</div>
+        <div class="border" id="mag2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis eveniet eum recusandae, minima pariatur consequuntur iure odit possimus cum laboriosam?</div>
+        <div class="border" id="mag3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat temporibus totam voluptatem ex consectetur praesentium maiores molestiae nobis aliquam aut!</div>-->
+        <!--
+        <div id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.<img height="50px" src="images/lioncub.jpg"> Dolor, in iste architecto, soluta ducimus expedita itaque            reprehenderit, consequuntur voluptate culpa illo repellendus aliquid sit.fjodfhhfoiahfoifhofhofhofhaiffaoifahfhofahfohfofhaof Dicta distinctio rem recusandae nam adipisci.</div>-->
+        <!--<div id="shadow">Ezazpasha</div>-->
+        <!--styling the links-->
+        <!--links are four types 1.link 2.visited 3.hover 4.active-->
+        <!--<a href="www.ejajpasha.com">Ezazpasha</a>-->
+        <!--font styling in css-->
+        <!--
+        <h1>Ezazpasha</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, eius labore! Dolor fugiat, dolorem pariatur accusamus, ad distinctio harum illum ullam aliquid assumenda necessitatibus. Voluptatum libero quisquam dolor recusandae nemo!</p> -->
+        <!-- css units-->
+        <!--To measure the length in width,height,margin,padding,font-size.
+        There are the two types of units in css 
+        a)Absolute
+        1.Cm(centimeter)
+        2.Mm(millimeter)
+        3.Inch
+        4.Px(1Inch=96px)pixel is a small dot on monitor.
+        5.Pt(1Inch=72pt)
+        6.Pc(1pc=12pt)picas
+
+        b)Relative(it depends on other things)
+        1.Em(em compare with parent size.If we give 2em it will multiple by 2 with parent size.)
+        2.Rem(rem is only compare with root (html tag)size)
+        3.Vh(1% of view port height)
+        4.Vw(1% of view port width)
+        5.%(relative to parent)
+            -->
+            <!--
+        <div class="parent">
+            <p>hello MOTO</p>
+            <div id="child">
+                <p>hellow MG</p>
+            </div>
+        </div>-->
+        <!--css cursor-->
+        <!--using css cursor we can change cursor value-->
+        <!--
+        <div>
+            <p>hi Ezazpasha</p>
+        </div>-->
+        <!--css !important property-->
+        <!--css follow a rule or order means inline css have high priority if we write both inline and outline to tag. so when we add !important property to a tag browser will execute only that tag, it will not follow the order.-->
+        <!--
+        <div style="font-style: italic;">
+            hey patha hy my koun hu
+        </div>-->
+        <!-- css Box shadow-->
+        <!--
+        <div>
+            <h2>Welcome back ejajpasha</h2>
+        </div>-->
+        <!-- css Opacity-->
+        <!--css opacity is used to create transparent to any element-->
+        <!--
+        <div id="color-box"> </div>
+        <div id="red-box"></div>
+            <img src="images/pattern.jpg" height="300" width="400">-->
+    <!--CSS FILTERS-->
+    <!--Filters are applied on images only-->
+    <!--
+    <img src="images/cutegirl.jpg"height="300" width="400">-->
+    <!--CSS IMAGE SPRITES-->
+    <!-- css image sprites is used to combine and seperate the images. we can combine the 3 or 4 images into a single image and also we can seperate a single image into several images.
+    mainly it used for only background images.
+    we need photoshop to know the details and exact position point of an image.
+    this property help full in making icons and background to web pages. 
+    <img src="images/lioncub.jpg" height="200"> -->
+    <!--CSS GRADIENTS-->
+    <!--css gradients means if two colors are mixing smoothly then it is called gradients.
+    
+    Gradients are two types
+    1.Linear gradient = it works line line type
+    2.Radial gradient = it works like circular type.
+    
+    <div id="div1"></div>
+    </body>
+    -->
+    <!--CSS OVERFLOW-->
+    <!-- CSS OVERFLOW property is used when the content is biggerthan container.
+    Mainly this property is used to block the content with scrollbar and other properties.-->
+    <!--
+    <div id="overflow">
+        <p>LOREM</p>
+    </div>
+    -->
+    <!--CSS RESIZABLE-->
+    <!--CSS RESIZABLE is a property to resize the text area.
+    It is used by the user side -->
+    <!--
+    <div id="resizable">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque veritatis ratione eligendi nisi pariatur reiciendis suscipit. Aliquam, vitae ut molestiae iste ullam eveniet accusamus quaerat officia voluptatum possimus quos tenetur?</p>
+    </div>-->
+
+    <!--CSS LISTS-->
+<!-- css lists are used to list the items in a order-->
+<!--
+<ol>
+    <li>Apple</li>
+    <li>Mango</li>
+    <li>Bannana</li>
+    <li>Orange</li>
+    <li>Strawberry</li>
+</ol>
+<ul>
+    <li>Apple</li>
+    <li>Mango</li>
+    <li>Bannana</li>
+    <li>Orange</li>
+    <li>Strawberry</li>
+</ul>
+-->
+<!--CSS TABLE-->
+<!-- -->
+<table>
+    <caption>Table css</caption>
+    <tr>
+        <th>NAME</th>
+        <th>ID</th>
+        <th>STATUS</th>
+    </tr>
+    <tr>
+        <td>ejaj</td>
+        <td>15</td>
+        <td>single</td>
+    </tr>
+    <tr>
+        <td>pasha</td>
+        <td>16</td>
+        <td>single</td>
+    </tr>
+    <tr>
+        <td>shaik</td>
+        <td>17</td>
+        <td>single</td>
+    </tr>
+</table>
+</html>
+
+

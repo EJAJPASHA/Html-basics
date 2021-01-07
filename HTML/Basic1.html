@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Html Practice</title>
+</head>
+<body>
+<div>
+<h1>Welcome to my daily routine</h1><!--heading tags-->
+<h2>Beginers</h2>
+<p>For begineers we provide each and every teatment we had to motivate them to go advance level. 
+</p><!--paragraph tag-->
+
+<!--List tags <li></li>are 3types unorderlist,orderlist,description list-->
+<!--Unorderlist is<ul></ul>list of items listed in bullet symbol -->    
+<ul>
+ <li>Lower body</li>
+ <li>Upper body</li>
+ <li>biceps</li>
+</ul>
+<!--orderlist is<ol></ol>list of items listed in numbers -->
+<ol>
+ <li>Lower body
+ <ul>
+    <li>tights</li>
+    <li>squats</li>
+ </ul>
+ </li>
+ <li>Upper body
+ <ul>
+  <li>sholders</li>
+  <li>knees</li>
+  </ul>
+</li>
+<li>biceps</li>
+</ol>
+<!--descriptionlist is
+<dl> ->description list
+<dt> ->description term
+<dd> ->description data
+</dd>
+</dt>
+</dl>
+The element is used to create a group of terms and description-->
+<h1>descriptionlist</h1>
+<dl>
+<dt>biseps</dt>
+<dd>3sets</dd>
+<dt>triseps</dt>
+<dd>2sets</dd>
+<dt>squats</dt>
+<dd>30</dd>
+</dl>
+<h1>code tag</h1>
+<!--code tag is used to write the code or other data in different format-->
+<p>code tag is used to<code> write the code</code> or other data in different format</p>
+<h1>html entities</h1>
+<!-- &lt; is used for '<' and &gt; is used for '>'-->
+hi &lt;EZAZPASHA&gt; welcome.<br>
+<code>
+    <h1>hello EZAZPASHA welcome</h1>
+</code>
+<br>
+<h1>pretag</h1>
+<!--pre tag defines preformatted text.
+Text in a <pre> element is displayed in a fixed-width font,and the text preserves both spaces and line breaks.The text will be written in the html source code.-->
+<pre>
+<code>
+<ul>
+<li>hello</li>
+<li>ezaz</li>
+<li>pasha</li>
+</ul>
+</code>
+</pre>
+<hr><!--<hr> tag is used to draw a horizontal line-->
+<pre>
+&lt;ul&gt;
+&lt;li>hello&lt;/li&gt;
+&lt;li&gt;ezaz&lt;/li&gt;
+&lt;li&gt;pasha&lt;/li&gt;
+&lt;/ul&gt;  
+</pre>
+<pre>EZAZPASHA</pre>
+<h1>Extra space tag</h1>
+<!--In html browser will not consider extra space so if we need extra space we should have to type &nbsp; -->
+<hr>
+<p>&nbsp;In the last decades of the 20th century world saw the rapid advancement of information and communication technologies.&nbsp; During this era “communication” is perhaps the most popular term. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today the communication revolution has brought us together regardless of geographical boundaries.</p>
+<br>
+<h1>super script & sub script</h1>
+<!--superscript is used in formulas or any chemical equations the number or letter we want write in above of another letter is called superscript the tag is <sup>. subscript is used when we want to write letter or number below of another number we should use subscript<sub>.-->
+<hr>
+<h3>h<sub>2</sub>so<sub>4</sub></h3>
+<h3>4<sup>2</sup>+&nbsp;6<sup>3</sup></h3>
+<br>
+<h1>Links and Navigations</h1>
+<hr>
+<!--if we want to have links and references we should go for anchortag  -->
+<h3>your site to different site</h3>
+<a href="www.google.com">Google</a>
+<h3>your site to different webpages</h3>
+<a href="1.html">Home</a>
+<a href="2.html">Accounts</a>
+<a href="3.html">Services</a>
+<a href="4.html">Details</a>
+<a href="5.html">About</a>
+<hr>
+<h1>Images and Grafics</h1>
+<img src="ferrari.jpg" alt="stylish car"  height="500" title="ferrari bold"/><br>
+<!--png images are transparent they will mix up with background colour mostly in any image adding areas they will use png images only-->
+<img src="kawasaki.png" alt="stylish bike"  height="500" title="bike bold"/><br>
+<!--svg (scalable vector grafics) it can be edited in any text -->
+<svg width="500" height="500">
+<!--circle is a predefined tag cx(x axis)cy(y axis) r(radius) stroke(circle border)-->
+<circle cx="100" cy="100" r="80" stroke-width="2" stroke="red" fill="blue" />
+</svg>
+<!--to connect image placed in different directory we need url to connect directory in src-->
+
+<!--to give the caption for an image we use <figcaption>tag and <figure>tag-->
+<!--when the image in same directory but in different folder then we can get that image by levelup symbol(../)-->
+<figure> 
+    <img src="baby\sameera.jpg" alt="born baby" height="600" width="400" title="saania">
+    <figcaption>My sister's second child</figcaption>
+</figure>
+<hr>
+<br>
+<h1>Media Elements</h1>
+<hr>
+<h3>Video elements</h3>
+<!--To put vedio in web we use <video> tag and we must add height,width and controls in video tag-->
+<video height="500" width="800" controls>
+<source src="MIwon.mp4" type="video/mp4">
+</video>
+<h3>Audio elements</h3>
+<!--To put audio in web we use <audio> tag and we must add  controls in audio tag-->
+<audio controls>
+<source src="AFD.mp3" type="audio/mp3">
+</audio>
+<h3>iframe elements</h3>
+<!--to connect youtube videos in webpage we use <iframe> tag in this tag we must add width,height,source attributes-->
+<!--Use the youtube site to find the video you want. Click the 'Share' button below the video. Click the 'Embed' button next to the link they show you. Copy the iframe code given and paste it into the html of your web page.-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TZE9gVF1QbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+<br>
+<h1>Semantics of html</h1>
+<hr>
+<!--semantic markup makes your website more understandable to search engine helps user with navigate a site and engaging with content.main,header footer,section,nav,article,aside tags are used in semantics-->
+
+<!--The <main> tag specifies the main content of a document. The content inside the <main> element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.-->
+
+<!--The <header> element represents a container for introductory content or a set of navigational links. A <header> element typically contains: one or more heading elements (<h1> - <h6>) logo or icon.-->
+
+<!--The <footer> tag defines a footer for a document or section.
+A <footer> element typically contains:
+authorship information
+copyright information
+contact information
+sitemap
+back to top links
+related documents
+You can have several <footer> elements in one document.-->   
+    
+<!--The section tag is used when requirements of two headers or footers or any other section of documents needed. Section tag grouped the generic block of related contents. The main advantage of the section tag is, it is a semantic element, which describes its meaning to both browser and developer.-->
+
+<!--The HTML <nav> element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.-->
+
+<!--The <article> tag specifies independent, self-contained content.
+An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.
+Potential sources for the <article> element:
+Forum post
+Blog post
+News story
+Note: The <article> element does not render as anything special in a browser. However, you can use CSS to style the <article> element-->
+
+<!--The <aside> tag defines some content aside from the content it is placed in.
+The aside content should be indirectly related to the surrounding content.
+Tip: The <aside> content is often placed as a sidebar in a document.
+Note: The <aside> element does not render as anything special in a browser. However, you can use CSS to style the <aside> element-->
+<header>
+<h3>using semantic elements</h3>
+<nav>
+<a href="1.html">Home</a>
+<a href="2.html">Accounts</a>
+<a href="3.html">Services</a>
+<a href="4.html">Details</a>
+<a href="5.html">About</a>
+</nav>
+</header>
+ <main>
+<section>
+<article>
+<h3 id="about">About section</h3>
+    <p>Although the concept of computer based communities dated back to the early days of computer networks, only some years after the advent of internet, social networking have met public and commercial success. Computer network was initially envisioned in the heydays of The Beatles as a military-centric command and control scheme. But as it expanded beyond just a privileged few hubs and nodes, so too did the idea that connected computers might also make a great forum for discussing mutual topics of interest, and perhaps, even meeting or renewing acquaintance with other humans.    
+    </p>
+    <aside>
+        This is a EZAZPASHA blog written by ejaj.
+    </aside>
+    <a href="#about">About</a>
+</article>
+</section>
+</main>
+<footer>
+&copy;2020 <!--&copy is used for copyright symbol-->
+</footer>
+<hr>
+<br>
+<h1>Table Elements</h1>
+<!--In html to draw a table in web page we need a <table>tag  this tag is a root tag to draw a table 
+    border is a lenth of table borders.
+    cellspacing is a space between cells.
+    cellpadding is used to get the space between border of table cell and its contents.-->
+<table border="1" cellspacing="0" cellpadding="5">
+    <caption>Employee Information</caption> <!--caption tag is used to write the caption of table-->
+    <thead> <!--thead tag is understanding to search engine it is a table head section-->
+        <tr> <!--table row-->
+            <th>Name</th><!--table head-->
+            <th>Email</th>
+            <th>Work</th>
+        </tr>
+    </thead> 
+    <tbody> <!--tbody tag is understanding to search engine it is a table body section-->
+    <tr>
+        <td>Ezaz</td> <!--table data-->
+        <td>ezazpasha@gmail.com</td>
+        <td>developer</td>
+    </tr>
+    <tr>
+        <td>Ramu</td>
+        <td>ramu@gmail.com</td>
+        <td>frontend</td>
+    </tr>
+    <tr>
+        <td>Murali</td>
+        <td>murali@gmail.com</td>
+        <td>backend</td>
+    </tr>
+</tbody>
+<tfoot> <!--tfoot tag is used to write any detail of table in footer section-->
+    <tr>
+        <td colspan="3"> All the details taken from personal pages</td> <!--colspan is used because the written <td> will shown under 3colums-->
+    </tr>
+</tfoot>
+</table>
+<hr>
+<br>
+<h1>Form elements in html</h1>
+<hr>
+<!-- form elements are used to create forms in webpage.
+    form tag contains action and method attributes.
+    action is used to web address of program process the information submitted in form.
+    http methods are two types POST, GET.
+    POST method will send form data directy to the server.
+    GET  method data send inside of url and parameters are separated with ?-->
+<form action="1.html" method="POST">
+<h3>Signup form</h3>
+<fieldset>
+    <legend>Employee basic information</legend> <!--legend tag is used for name labeling to fieldset tag-->
+<lable for="name">Employee name</lable><br> <!--lable tag for value and id value should be the same-->
+ <input type="text" id="name" name="user_name"><br><br> <!--input tag is used to create a form text box in webpage-->
+ <label for="email">Employee email</label><br><!--lable tag is used to lable the name of box in webpage-->
+<input type="email" id="email" name="user_email"><br><br>
+
+<label for="psw">Employee password</label><br>
+<input type="password" id="psw" name="user_pswd"><br><br>
+<lable>Intrested languages</lable><br>
+<input type="checkbox" id="java"  value="java"  name="code"><label for="java">java</label>
+<input type="checkbox" id="php"  value="php"  name="code"><label for="php">php</label>
+<input type="checkbox" id="javascript"  value="javascript"  name="code"><label for="javascript">javascript</label>
+<input type="checkbox" id="python"  value="python"  name="code"><label for="python">python</label>
+<input type="checkbox" id="oracle"  value="oracle"  name="code"><label for="oracle">oracle</label>
+<input type="checkbox" id="flutter"  value="flutter"  name="code"><label for="flutter">flutter</label>
+<input type="checkbox" id="mangodb"  value="mangodb"  name="code"><label for="mangodb">mangodb</label>
+<br>
+</fieldset>
+<fieldset>
+    <legend>Employee profile info</legend>
+<label for="bio">Employee bio</label><br>
+<textarea id="bio" name="user_biography"></textarea><br><!--textarea tag is used to write biography,about company etc.,-->
+<lable for="position">Job position</lable><br>
+<select id="position" name="user_jobposition"> <!--some times when you create in your form, you dont want user to be able to type in text, rather you might want them to pick some present options that you define-->
+<optgroup label="web"> <!-- this tag is used to group related options in a <select> element-->
+    <option value="web_developer">html</option>
+    <option value="web_developer">CSS</option>
+    <option value="web_developer">bootstrap</option>
+    <option value="web_developer">javascript</option>
+</optgroup>
+
+<optgroup label="mobile">
+    <option value="Mobile_developer">java</option>
+    <option value="Mobile_developer">python</option>
+    <option value="Mobile_developer">c#</option>
+    <option value="Mobile_developer">c++</option>
+</optgroup>
+
+<optgroup label="marketing">
+    <option value="bussiness">facebook</option>
+    <option value="bussiness">INSTAGRAM</option>
+    <option value="bussiness">watsap</option>
+    <option value="bussiness">snapchat</option>
+</optgroup>
+</select><br><br>
+<label>Gender</label><br>
+<input type="radio" id="male" value="male" name="user_gender"><label for="male">Male</label>
+<input type="radio" id="female" value="female" name="user_gender"><label for="female">Female</label>
+</fieldset>
+<br>
+<button type="submit">Signup</button>
+<button type="reset">clear</button>
+</form>
+<hr>
+</div>
+</body>
+</html>

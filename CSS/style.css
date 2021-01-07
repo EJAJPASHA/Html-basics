@@ -1,0 +1,410 @@
+/*p{
+    color:red;
+}*/
+/* this is elememt selector */
+/* #ez{
+    color: bisque;
+}*/
+/* this is identity selector */
+
+/*.yellow-text{
+    color: yellow;
+}*/
+/* this is class selector */
+/*#pi{
+    font-size: larger;
+}*/
+/*.greentext{
+    color: green;
+}*/
+/*.bluetext{
+    color: black;
+}*/
+
+/*body{
+    background-color: rgba(255, 50, 100, 0.5);
+   background-image: url('images/pattern.jpg');
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+}*/
+/*#bg{
+     background-color: lawngreen;
+    background-image: url('images/cutegirl.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    background-attachment: scroll;
+ }*/
+ /*#gb{
+     background-image: url('images/build.jpg'), url('images/build2.jpg');
+     background-repeat: no-repeat;
+     background-position: left top, right bottom;
+     background-size: 100% 100%;
+     background-attachment:scroll;
+     background-clip: border-box;
+    backface-visibility: hidden;
+    background-origin: padding-box;
+    background-blend-mode: difference;
+ }*/
+#border{
+    /*border-style: groove;*/
+    /* if we want different borders for single text then we should do this
+    border-style: solid dashed outset dotted;
+    in this top border is solid,right hand side border is dashed,bottom side border is outset,left hand side border is dotted.so it comes in clockwise direction.*/
+    /*border-width: 4px 2px 4px 2px;*/
+ /* border-top-width:5px;
+  border-top-color: brown;
+  border-top-style: groove;
+  border-right-style: double;
+  border-right-color: blueviolet;
+  border-right-width: 10px;
+  border-left-style: dashed;
+  border-left-color: gold;
+  border-left-width: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+  border-bottom-width: 5px;*/
+  /*border-style: solid dashed outset dotted;
+  border-radius: 10px 10px;*/
+}
+/*
+body{
+    border: 3px solid red;
+}
+*/
+/*
+#border{
+    background-color: aqua;
+    height: 500px;
+    width:500px;
+    max-width: 400px;
+    min-width: 200px;
+    max-height: 400px;
+    min-height: 200px;
+} */
+/* 
+#border{
+    border: 2px solid blueviolet;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 30px;
+    padding: 20% 40% 30% 10%;
+   
+}
+*/
+/*
+.border{
+    border: 3px solid green;
+    padding: 30px 20px;
+}
+#mag1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#mag2
+{
+    width: 200px;
+    margin: 20px auto;
+}
+#mag3
+{
+    margin: 20px 40px;
+}
+*/
+/*
+#text{
+    color: blue;
+    text-align: justify;
+    direction: rtl;
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    line-height: 50px;
+    text-indent: 50px;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    white-space: normal;
+    word-wrap: break-word;
+
+}
+img{
+    border: 1px solid red;
+    vertical-align: middle;
+}
+*/
+/*
+#shadow{
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px -5px 7px royalblue;
+    /* here the first 3px is horizontal,second -5px is vertical,third 7px is blurr,fourth royalblue is a color to shadow. It is the sequence of text shadow(horizontal,
+}*/
+/*
+a{
+    text-decoration: none; it will remove the link underline 
+}
+a:link{
+    color:black; it will show the actual link color
+}
+a:visited{
+    color: green; when u already visited the link then it will show the link in green color next time
+}
+a:hover{
+    color: orangered; when ur pointer on the link the link will be shown in orangered color.
+}
+a:active{
+    color: blue; when you click the link it will be turned into blue.
+}
+*/
+/*
+h1{
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    font-variant: small-caps;
+}
+p{
+    font-size: 20px;
+    font-weight: 800;
+    font-style: oblique;
+    font-variant: small-caps;
+
+}
+*/
+/*
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 800;
+    font-style: oblique;
+}
+p{
+    font-family: 'Texturina', serif;
+    font-weight: 900;
+    font-style: italic;
+}
+*/
+/* font face is a rule allows custom fonts to be loaded on a webpage*/
+/*
+@font-face{
+    font-family: ezaz ; 
+    it is a user given name to call the downloaded font.
+    src: url('fonts/Aladin-Regular.ttf');
+}
+
+@font-face{
+    font-family: pasha;
+    src: url('fonts/Arbutus-Regular.ttf');
+}
+h1{
+    font-family: ezaz, pasha; 
+
+    here we call two font faces at a time so browser takes ezaz first, if ezaz is not available then it will take pasha font.
+
+    font-weight: 500;
+    font-style: italic;
+}
+p{
+    font-family: pasha, ezaz;   
+    font-weight: 900; 
+    font-style: oblique;
+
+    write font in short hand style.so the order is
+    font: style, variant, weight, size, name
+    font: italic small-caps 600 30px ezaz;
+
+    miss anything in this order but order must be written this order only.
+}
+*/
+/*
+css units
+html{
+    font-size: 20px;
+}
+.parent{
+    border: 1px solid brown;
+    width: 400px;
+    height: 50vh;
+    font-size: 4rem;
+    
+}
+#child{
+    border: 1px solid green;
+    width: 50vw;
+    font-size: 2rem;
+
+}
+*/
+/*
+css cursor
+div{
+    border: 5px solid blue;
+    cursor: cell;
+    google it for types of cursor values.
+}
+*/
+/*
+css !important property
+div{
+    font-style: oblique;
+}
+div{
+    font-style: normal !important;
+}
+*/
+/*
+css Box shadow 
+
+css box shadow property is used to create a shadow to a box
+15px is X-axis, 5px is Y-axis, 10px is blurr the shadow, 5px is a spred radius, color is grey, inset is shoadow will come inside the box
+
+div{
+    border: 1px solid green;
+    width: 500px;
+    background-color: yellowgreen;
+    margin: 100px;
+    padding: 30px;
+    box-shadow: 15px 5px 10px 5px gray,15px -5px 10px 5px red inset;
+}
+*/
+/*
+CSS Opacity 
+
+css opacity is between 0,0.5,1
+0 is no opacity
+0.5 is transparent opacity
+1 is fully thik opacity
+
+*/
+/*
+#color-box
+{
+background-color: blueviolet;
+height: 300px;
+width: 500px;
+margin-bottom: 20px;
+opacity: 0.5;
+}
+#red-box
+{
+    background-color:red;
+    height: 300px;
+    width: 250px;
+    margin-top: -320px;
+    margin-bottom: 50px;
+    opacity: 0.5; 
+}
+img:hover{
+    opacity: 0.5;
+}
+*/
+/*
+blur() should be given in px
+brightness() should br given in %
+contrast() should be given in %
+filter:drop-shadow(10px 10px 10px yellowgreen) is (horizontal vertical blurr shadowcolor)
+
+grayscale() should be given in % it is  for black and white effect
+
+hue-rotate(90deg) should be given in degree it is for green effect
+
+invert(100%) should be given in %
+
+opacity(40%) should be given in %
+saturate(100%)should be given in %
+sepia(100%)should be given in %
+
+we can add morethan one filter at a time 
+*/
+/*
+img{
+    filter:sepia(100%), contrast(100%), blur(5px);
+}
+*/
+/*
+CSS IMAGE SPRITES
+*/
+/*
+img{
+    background-repeat: no-repeat;
+    background-position: 10px -2px;
+    filter: blur(2px);
+}
+*/
+/*
+CSS GRADIENTS
+*/
+/*
+#div1{
+    height: 500px;
+    border: 2px solid red;
+    background-image: linear-gradient(to bottom right,red,green,violate);
+    background-image: radial-gradient(circle,red 20%,blue 40%,green 50%);
+}
+*/
+/*
+CSS OVERFLOW
+css overflow:auto; is best option for content.
+#overflow{
+    background-color: goldenrod;
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+}
+*/
+/*
+CSS RESIZABLE
+css resizable is used for adjusting the size of atext area.
+when your using resiza property make sure overflow property is auto.
+*/
+/*
+#resizable{
+    background-color: goldenrod;
+    border: 2px solid red;
+    width: 500px;
+    height: 100px;
+    overflow: auto;
+    resize: both; horizontal,vertical,none
+}
+*/
+/*
+CSS LIST
+
+ol{
+    list-style-type: georgian;
+    list-style-position: inside;
+    list-style-image: url("images/lioncub.jpg");
+    
+}
+ul{
+    list-style-type: lower-greek;
+    list-style-position: outside;
+}
+*/
+/*
+CSS TABLE
+border-collapse is used to combine the all borders
+*/
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+caption{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    height: 25px;
+}
+td{
+    border: 1px solid black;
+    height: 15px;
+    padding: 5px;
+}
