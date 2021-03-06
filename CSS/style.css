@@ -48,6 +48,7 @@
     background-origin: padding-box;
     background-blend-mode: difference;
  }*/
+ /*
 #border{
     /*border-style: groove;*/
     /* if we want different borders for single text then we should do this
@@ -67,8 +68,9 @@
   border-bottom-color: red;
   border-bottom-width: 5px;*/
   /*border-style: solid dashed outset dotted;
-  border-radius: 10px 10px;*/
+  border-radius: 10px 10px;
 }
+*/
 /*
 body{
     border: 3px solid red;
@@ -392,19 +394,327 @@ ul{
 CSS TABLE
 border-collapse is used to combine the all borders
 */
+/*
 table{
     border: 1px solid black;
     border-collapse: collapse;
+    empty-cells: hide;
+    table-layout: auto;
+    width: 100%;
+    
 }
 caption{
     border: 1px solid black;
+    background-color: green;
+    font-style: inherit;
 }
 th{
     border: 1px solid black;
     height: 25px;
+    background-color: yellow;
+    text-align: left;
+    padding: 10px;
 }
 td{
     border: 1px solid black;
     height: 15px;
-    padding: 5px;
+    padding: 20px;
+    background-color:red;
+    vertical-align:sub;
+} */
+/*
+CSS FUNCTION
+*/
+/*
+here calc() is a function when we minimize the screen the width of diagrams also getting decrease so to stop that we use this functio 100% is screen size. when screen is minimizing the 200px will not decreased any more.*/
+/*
+:root id is used to create var() funtion it is used when you want to change the whole brand color or text color in big size websites so without checking the whole program we can change the variables in var function so it can change the whole program at where it exists.
+
+:root{
+    --primary-color: navy;
+    --btn-color: green;
+    --text-color: white;
 }
+#function
+{
+    border: 5px solid green;
+    width: calc(100% - 200px);
+    height: 200px;
+    background-color: var(--primary-color)
+}
+a{
+    padding: 10px 30px;
+    margin: 20px;
+    background-color: rebeccapurple;
+    color: var(--text-color);
+    text-decoration: none;
+}
+*/
+/*
+CSS BOX SIZING
+*/
+/*
+#div1{
+    height: 200px;
+    width: 200px;
+    background: fixed;
+    background-color: blue;
+}
+#div2{
+    height: 200px;
+    width: 200px;
+    background: fixed;
+    background-color: red;
+    padding: 50px;
+    border: 5px solid;
+    border-color: black;
+    box-sizing: border-box;
+}
+*/
+/*
+INITIAL vs INHERIT
+*/
+/*
+#ejaj{
+    color: gold;
+}
+#l1{
+    color: turquoise;
+}
+#l2{
+    color: initial;
+}
+#l3{
+    color: inherit;
+}
+*/
+/*
+OBJECT FIT PROPERTY
+
+this property is used on image or video and
+it is used for foreground image
+*/
+/*
+img{
+    height: 500px;
+    width: 500px;
+    border: 2px solid green;
+    object-fit: contain;
+    object-position: top left;
+}
+*/
+/*
+    psuedo classes
+*/
+/*
+li:nth-child(2n + 1){
+    color:red;
+}
+input:focus{
+    border: 3px solid red;
+}
+*/
+/*
+    psuedo elements
+
+    the difference between psuedo class and psuedo element is colon:. psuedo class uses single colon(input:focus), Psuedo element uses double colon(input::focus).
+*/
+/*
+p::first-line{
+    font-size: 30px;
+    color: red;
+}
+h1::before{
+    content: "HELLO MR." ;
+}
+THIS IS A UNIVERSAL SELECTOR
+::selection{
+    color: red;
+    background: yellow;
+}
+*/
+/*
+DISPLAY AND VISIBILITY
+*/
+/*
+.hello{
+    border: 2px solid red;
+    color: green;
+    width: 50%;
+    height: 100px;
+    display: inline;
+
+}
+#div2{
+    border: 2px solid green;
+    color: red;
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+}
+#div1{
+    display: none;
+    visibility: hidden;
+*/
+/*
+POSITION
+*/
+/*
+body{
+    height: 5000px;
+}
+#parent{
+    border: 2px solid red;
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+}
+#ch1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px
+
+}
+#ch2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+#ch3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+*/
+/* LAYERS AND Z-INDEX */
+/*
+#parent{
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+}
+#ch1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+#ch2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -50px;
+    z-index: 2;
+}
+#ch3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    position: relative; 
+    top: 100px;
+    left: -100px;
+    z-index: 3;
+}
+*/
+/* FLOAT AND CLEAR */
+/*
+p{
+    border: 2px solid green;
+    overflow: auto;
+}
+img{
+    height: 100px;
+    width: 100px;
+    padding: 2px;
+}
+#img1{
+    float: right;
+}
+#img2{
+    float: right;
+    clear: both;
+}
+ul{
+    background-color: green;
+    list-style-type: none;
+    overflow: auto;
+}
+li{
+    padding: 10px 15px;
+    color: white;
+    float: left;
+}
+*/
+/*
+#content{
+    height: 100px;
+    background-color: blueviolet;
+    width: 70%;
+    float: left;
+}
+#sidebar{
+    height: 50px;
+    background-color: orangered;
+    width: 30%;
+    float: left;
+
+}
+p{
+    height: 30px;
+    background-color: lightseagreen;
+    width: 30%;
+    float: left;
+    clear: both;
+}
+*/
+/* CSS 2D TRANSFORMS */
+/*
+#wrapper{
+    padding: 20px;
+    margin: 20px;
+    transform: matrix(1, 0.5, 0, 1, 0, 0);
+    background-color: yellow;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px 20px;
+    color: black;
+    display: inline-block;
+}
+*/
+/* CSS 3D TRANSFORMS*/
+/*
+#cover{
+    border: 2px solid green;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+}
+#content{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) translate3d(50px, 50px, 50px);
+}
+*/
+/* CSS TRANSITION*/
